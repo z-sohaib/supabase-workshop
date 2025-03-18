@@ -1,5 +1,5 @@
 import { uploadFile } from "./actions/upload";
-import { createClient } from "./utils/server";
+import { createClient } from "./utils/supabase/server";
 
 export default async function Home() {
   const supabase = await createClient();

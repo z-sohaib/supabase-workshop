@@ -1,5 +1,5 @@
 "use server";
-import { createClient } from "../utils/server";
+import { createClient } from "../utils/supabase/server";
 
 export const uploadFile = async (formData: FormData) => {
   const supabase = await createClient();
